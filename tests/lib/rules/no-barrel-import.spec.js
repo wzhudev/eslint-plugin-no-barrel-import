@@ -13,11 +13,11 @@ ruleTester.run('no-barrel-import rule', rule, {
   invalid: [
     {
       code: `import * as chuck from '.'`,
-      errors: [{ message: `Should not use imports ends with '.' or '..'. Import the specific file instead.` }],
+      errors: [{ message: `Should not use imports ends with "." or "..". Import the specific file instead.` }],
     },
     {
       code: `import * as chuck from '..'`,
-      errors: [{ message: `Should not use imports ends with '.' or '..'. Import the specific file instead.` }],
+      errors: [{ message: `Should not use imports ends with "." or "..". Import the specific file instead.` }],
     },
   ],
 });

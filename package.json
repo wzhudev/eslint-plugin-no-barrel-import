@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-no-barrel-import",
-  "version": "0.0.1",
-  "description": "Lint for relative imports from \".\" and \"..\".",
+  "version": "0.0.2",
+  "description": "Forbid import from barrels",
   "keywords": [
     "eslint",
     "eslintplugin",
